@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.sidebar {
+    background-color: rgb(240, 183, 69);
+    
+    font-family: 'Oswald', sans-serif;
+    height: 100vh;
+    transition: transform 0.5s ease-in;
+}
+
+.sidebar nav {
+    padding: 15px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 30px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: rgb(17, 16, 16);
+}
+
+.main {
+    /* background-color: yellow;*/
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: rgb(221, 44, 44);*/
+    height: 60vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flexbox;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif
+}
+
+.hello {
+    font-size: 35px;
+}
+
+.name {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Bungee Spice', sans-serif;
+}
+
+
+.about {
+    font-size: 25px;
+}
+
+.moreabout {
+    font-size: 21px;
+}
+
+.btn {
+    padding: 5px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    background-color: rgb(27, 13, 13);
+    font-size: 20px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.btn-sm {
+    font-size: 17px;
+    padding: 5px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    background-color: rgb(27, 13, 13);
+    font-size: 20px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.btn-sm:hover {
+    background-color: orange;
+}
+
+.btn:hover {
+    background-color: rgb(214, 140, 3);
+}
+
+
+.contectform {
+    padding-top: 144px;
+    padding: 0 35px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.contectform h1 {
+    font-family: 'Bungee Spice', sans-serif;
+    padding: 12px 0;
+}
+
+.contectform form div {
+    display: flex;
+    flex-direction: column;
+    padding: 9px 0;
+}
+
+.contectform form div input {
+    width: 24vw;
+    margin: 6px 0 0 0;
+    padding: 3px;
+    border-radius: 6px;
+}
+
+.contectform form{
+    margin: 0 40px;
+}
+
+#emailHelp {
+    font-size: 11px;
+    color: orangered;
+    margin: 0 5px;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 17px;
+    margin: 3px 0;
+}
+
+.aboutcontainer h1 {
+    font-weight: bold;
+    font-family: 'Bungee Spice', sans-serif;
+
+}
+
+.aboutcontainer p {
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+.aboutcontainer h2 {
+    align-items: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Bungee Spice', sans-serif;
+
+}
+
+.aboutcontainer ul li {
+    list-style: none;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 40px;
+}
+
+.skillcontainer {
+    padding: 20px;
+}
+
+
+.skillitem {
+    display: flex;
+    align-items: center;
+}
+
+
+.skill {
+    width: 255px;
+    border-radius: 5px;
+    height: 7px;
+    background-color: rgb(218, 151, 27);
+    border: 2px solid black;
+}
+
+.hundred{
+    width: 200px;
+    margin-left: 30px;
+}
+
+.fifty{
+    width: 150px;
+    margin-left: 46px;
+}
+
+.twentyfive{
+    width: 100px;
+    margin-left: 39px;
+}
+
+.seventyfive{
+    width: 75px;
+    margin-left: 12px;
+}
+
+.sidebarGo{
+    transform: translate(-310px , 0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 18px;
+    left: 12px;
+}
+
+.cross{
+    margin-left: 130px ;
+}
+
+.aboutcontainer{
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+
